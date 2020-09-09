@@ -31,5 +31,5 @@ Executar o arquivos run.sh apos o start do servidor a aplicação fica disponív
   - http://localhost:10000/rest-application/api/ibge/municipios/json [GET]
 #### Recebe o ID do município e retorna seu nome
   - http://localhost:10000/rest-application/api/ibge/municipios/{id} [GET]
-  - Caso o id foi consultado mais de uma vez ele busca de um cache e não da API pública
+  - Caso o id foi consultado mais de uma vez ele busca de um cache e não da API pública
     
