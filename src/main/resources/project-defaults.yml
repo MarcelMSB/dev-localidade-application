@@ -1,0 +1,15 @@
+swarm:
+  logging:
+    root-logger:
+      level: INFO
+    loggers:
+      org.hibernate.sql:
+        level: INFO
+      dev.marcel.application.web.resource.common.enterprise.MyLoggingFilter:
+        level: TRACE
+  naming:
+    bindings:
+      'java:global/ibge/host':
+        value: 'http://servicodados.ibge.gov.br/api/v1/localidades'
+        type: java.lang.String
+        binding-type: simple
